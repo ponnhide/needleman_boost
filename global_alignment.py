@@ -32,7 +32,7 @@ if __name__ == "__main__":
                 n += 1
         return seq_dict 
 
-    path = "../../sample_data/Target-ACE_sequence_data/Rep1/AID/polyC/chr19_8211972/"
+    path = "./"
     ref  = "TAACTTACGGAGTCGCTCTACGCTAAGTCCCCGTGTAAACAGAGCTGAACCTGCAGGCAGGTAAGAGTGTCCCCGGCCTGTGCCCCCCCACCTCCAGACGGCGGTAGCACTCACGTACGACACACTGGCTCCTGCCAGGCAGGACCTAAAGAATCCCATCC" 
     fastq_dict = read_fastq(path + "/R1.fastq")
     
